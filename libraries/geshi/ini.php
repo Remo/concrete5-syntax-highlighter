@@ -1,10 +1,10 @@
-<?php 
+<?php
 /*************************************************************************************
  * ini.php
  * --------
  * Author: deguix (cevo_deguix@yahoo.com.br)
  * Copyright: (c) 2005 deguix
- * Release Version: 1.0.8.3
+ * Release Version: 1.0.8.11
  * Date Started: 2005/03/27
  *
  * INI language file for GeSHi.

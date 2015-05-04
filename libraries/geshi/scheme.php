@@ -1,10 +1,10 @@
-<?php 
+<?php
 /*************************************************************************************
  * scheme.php
  * ----------
  * Author: Jon Raphaelson (jonraphaelson@gmail.com)
  * Copyright: (c) 2005 Jon Raphaelson, Nigel McNie (http://qbnz.com/highlighter)
- * Release Version: 1.0.8.3
+ * Release Version: 1.0.8.11
  * Date Started: 2004/08/30
  *
  * Scheme language file for GeSHi.
@@ -54,10 +54,10 @@ $language_data = array (
             'caar', 'caddr', 'cadr', 'call-with-current-continuation',
             'call-with-input-file', 'call-with-output-file', 'call/cc', 'car',
             'case', 'catch', 'cdddar', 'cddddr', 'cdr', 'ceiling', 'char->integer',
-            'char-alphabetic?', 'char-ci<=?', 'char-ci<?php ', 'char-ci?', 'char-ci>=?',
+            'char-alphabetic?', 'char-ci<=?', 'char-ci<?', 'char-ci?', 'char-ci>=?',
             'char-ci>?', 'char-ci=?', 'char-downcase', 'char-lower-case?',
             'char-numeric', 'char-ready', 'char-ready?', 'char-upcase',
-            'char-upper-case?', 'char-whitespace?', 'char<=?', 'char<?php ', 'char=?',
+            'char-upper-case?', 'char-whitespace?', 'char<=?', 'char<?', 'char=?',
             'char>=?', 'char>?', 'char?', 'close-input-port', 'close-output-port',
             'complex?', 'cond', 'cons', 'construct-identifier', 'cos',
             'current-input-port', 'current-output-port',
@@ -96,9 +96,9 @@ $language_data = array (
 
             's', 'sequence', 'set!', 'set-char!', 'set-cdr!', 'sin', 'sqrt', 'string',
             'string->list', 'string->number', 'string->symbol', 'string-append',
-            'string-ci<=?', 'string-ci<?php ', 'string-ci=?', 'string-ci>=?',
+            'string-ci<=?', 'string-ci<?', 'string-ci=?', 'string-ci>=?',
             'string-ci>?', 'string-copy', 'string-fill!', 'string-length',
-            'string-ref', 'string-set!', 'string<=?', 'string<?php ', 'string=?',
+            'string-ref', 'string-set!', 'string<=?', 'string<?', 'string=?',
             'string>=?', 'string>?', 'string?', 'substring', 'symbol->string',
             'symbol?', 'syntax', 'syntax-rules',
 

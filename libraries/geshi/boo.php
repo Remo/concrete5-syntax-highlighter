@@ -1,10 +1,10 @@
-<?php 
+<?php
 /*************************************************************************************
  * boo.php
  * --------
  * Author: Marcus Griep (neoeinstein+GeSHi@gmail.com)
  * Copyright: (c) 2007 Marcus Griep (http://www.xpdm.us)
- * Release Version: 1.0.8.3
+ * Release Version: 1.0.8.11
  * Date Started: 2007/09/10
  *
  * Boo language file for GeSHi.

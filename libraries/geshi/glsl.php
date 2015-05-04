@@ -1,10 +1,10 @@
-<?php 
+<?php
 /*************************************************************************************
  * glsl.php
  * -----
  * Author: Benny Baumann (BenBE@omorphia.de)
  * Copyright: (c) 2008 Benny Baumann (BenBE@omorphia.de)
- * Release Version: 1.0.8.3
+ * Release Version: 1.0.8.11
  * Date Started: 2008/03/20
  *
  * glSlang language file for GeSHi.

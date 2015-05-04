@@ -1,10 +1,10 @@
-<?php 
+<?php
 /*************************************************************************************
  * lolcode.php
  * ----------
  * Author: Benny Baumann (BenBE@geshi.org)
  * Copyright: (c) 2008 Benny Baumann (http://qbnz.com/highlighter/)
- * Release Version: 1.0.8.3
+ * Release Version: 1.0.8.11
  * Date Started: 2009/10/31
  *
  * LOLcode language file for GeSHi.

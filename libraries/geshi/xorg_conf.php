@@ -1,10 +1,10 @@
-<?php 
+<?php
 /*************************************************************************************
  * xorg_conf.php
  * ----------
  * Author: Milian Wolff (mail@milianw.de)
  * Copyright: (c) 2008 Milian Wolff (http://milianw.de)
- * Release Version: 1.0.8.3
+ * Release Version: 1.0.8.11
  * Date Started: 2008/06/18
  *
  * xorg.conf language file for GeSHi.

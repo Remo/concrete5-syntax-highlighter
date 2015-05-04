@@ -1,10 +1,10 @@
-<?php 
+<?php
 /*************************************************************************************
  * gettext.php
  * --------
  * Author: Milian Wolff (mail@milianw.de)
  * Copyright: (c) 2008 Milian Wolff
- * Release Version: 1.0.8.3
+ * Release Version: 1.0.8.11
  * Date Started: 2008/05/25
  *
  * GNU Gettext .po/.pot language file for GeSHi.

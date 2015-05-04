@@ -1,10 +1,10 @@
-<?php 
+<?php
 /*************************************************************************************
  * pixelbender.php
  * ----------------
  * Author: Richard Olsson (r@richardolsson.se)
  * Copyright: (c) 2008 Richard Olsson (richardolsson.se)
- * Release Version: 1.0.8.3
+ * Release Version: 1.0.8.11
  * Date Started: 2008/11/16
  *
  * Pixel Bender 1.0 language file for GeSHi.
