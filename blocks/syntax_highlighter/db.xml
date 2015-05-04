@@ -6,10 +6,8 @@
             <unsigned/>
         </field>
         <field name="code" type="X2">
-
         </field>
         <field name="language" type="C" size="100">
-
         </field>
         <field name="tabWidth" type="I">
             <unsigned/>
@@ -26,6 +24,10 @@
         <field name="showLineNumbers" type="I1">
             <unsigned/>
             <default value="0"/>
+        </field>
+        <field name="startLineNumbersAt" type="I">
+            <unsigned/>
+            <default value="1"/>
         </field>
         <field name="wrapOverflowText" type="I1">
             <unsigned/>

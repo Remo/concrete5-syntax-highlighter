@@ -163,7 +163,6 @@ class SyntaxHighlighterBlockController extends BlockController
 
     public function view()
     {
-
         Loader::library("geshi", "syntax_highlighter");
 
         $geshi = new GeSHi($this->code, $this->language);
@@ -171,6 +170,10 @@ class SyntaxHighlighterBlockController extends BlockController
         if ($this->showLineNumbers) {
             $geshi->enable_line_numbers(GESHI_NORMAL_LINE_NUMBERS);
         }
+        if ($this->startLineNumbersAt) {
+            $geshi->start_line_numbers_at($this->startLineNumbersAt);
+        }
+
         $geshi->enable_strict_mode($this->strictMode);
         $geshi->set_tab_width($this->tabWidth);
 

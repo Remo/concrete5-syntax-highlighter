@@ -13,6 +13,10 @@
 <input type="radio" name="showLineNumbers"
        value="0" <?php echo($showLineNumbers ? "" : "checked=\"checked\"") ?> /> <?php echo t('No') ?><br/><br/>
 
+<?php echo t('Start Line Numbers at') ?><br/>
+<input type="text" name="startLineNumbersAt" value="<?php echo $startLineNumbersAt ?>">
+<br><br>
+
 <?php echo t('Tab Width') ?><br/>
 <input type="text" name="tabWidth" value="<?php echo $tabWidth ?>">
 <br/><br/>

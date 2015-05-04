@@ -9,6 +9,7 @@ $this->inc('form.php',
         'strictMode' => 0,
         'highlightKeywords' => 1,
         'tabWidth' => 3,
-        'showLineNumbers' => 1
+        'showLineNumbers' => 1,
+        'startLineNumbersAt' => 1,
     )
 );
