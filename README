@@ -1,0 +1,8 @@
+A Concrete5 Block that allows you to insert a highlighted source code
+snippet. Uses the great GeSHi library http://qbnz.com/highlighter/
+
+Please not that GeSHi is licensed under GPL and therefore this block as well!
+
+Thanks!
+Remo
+http://www.concrete5.org/profile/-/26
