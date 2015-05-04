@@ -1,30 +1,35 @@
-<?php 
+<?php
 
 defined('C5_EXECUTE') or die('Access Denied.');
 
-class SyntaxHighlighterBlockController extends BlockController {
-
+class SyntaxHighlighterBlockController extends BlockController
+{
     protected $btTable = 'btSyntaxHighlighter';
     protected $btInterfaceWidth = '600';
     protected $btInterfaceHeight = '465';
 
-    public function getBlockTypeDescription() {
+    public function getBlockTypeDescription()
+    {
         return t("Insert an hightlighted code block.");
     }
 
-    public function getBlockTypeName() {
+    public function getBlockTypeName()
+    {
         return t("Syntax Highlighter");
     }
 
-    public function add() {
+    public function add()
+    {
         $this->set('languages', $this->getLanguages());
     }
 
-    public function edit() {
+    public function edit()
+    {
         $this->set('languages', $this->getLanguages());
     }
 
-    public function getLanguages() {
+    public function getLanguages()
+    {
         return array(
             'avisynth' => 'AviSynth',
             'bash' => 'Bash',
@@ -152,10 +157,12 @@ class SyntaxHighlighterBlockController extends BlockController {
             'xml' => 'XML',
             'xorg_conf' => 'Xorg configuration',
             'xpp' => 'X++',
-            'z80' => 'ZiLOG Z80 Assembler');
+            'z80' => 'ZiLOG Z80 Assembler'
+        );
     }
 
-    public function view() {
+    public function view()
+    {
 
         Loader::library("geshi", "syntax_highlighter");
 
